@@ -39,8 +39,9 @@ public class Pessoa {
         this.nome = nome;
         this.telefone = telefone;
         this.endereço = endereço;
-
-    }
+ }       
+    public void apresentar(){}
+    
     
 }
 

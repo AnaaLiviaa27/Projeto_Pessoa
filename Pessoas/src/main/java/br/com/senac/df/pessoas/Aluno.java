@@ -31,6 +31,10 @@ public class Aluno extends Pessoa {
         this.nota = nota;
         this.media = media;
 }
-    
+     @Override
+     public void apresentar(){
+         System.out.println("Olá,sou o aluna. Me chamo " + this.getNome());
+     }
 }
+
 

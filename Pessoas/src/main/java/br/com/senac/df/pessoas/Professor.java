@@ -32,5 +32,12 @@ public class Professor extends Pessoa {
         this.ncontrato = ncontrato;
         
     }
-}
+     @Override
+     public void apresentar(){
+         System.out.println("Olá, sou o professor. Me chamo " + this.getNome());
+    }      
+
+    }
+
+
 

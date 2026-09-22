@@ -11,13 +11,14 @@ package br.com.senac.df.pessoas;
 public class Pessoas {
 
     public static void main(String[] args) {
-        Professor professor = new Professor(12000.5,12345678,"Diego",98677435,"QN 210");
+     
+        Professor professor = new Professor(2.300,34567,"Luiz",89888900,"QN 410");
         
-        professor.getNome();
+        professor.apresentar();
         
-        Aluno aluno = new Aluno(9.8,8,"Denise",98677234,"QS 215");
+        Aluno aluno = new Aluno(10,9,"Tatia",9876545,"QS 310");
         
-        aluno.getNome();
+        aluno.apresentar();
         
         
     }
